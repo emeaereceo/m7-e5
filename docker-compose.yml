@@ -1,7 +1,7 @@
 services:
   db:
     image: "postgres:alpine3.19"
-    container_name: modulo7
+    container_name: modulo7e5
     restart: always
     environment:
       POSTGRES_USER: ${DB_USER}
